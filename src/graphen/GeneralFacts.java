@@ -20,7 +20,7 @@ public class GeneralFacts {
 		return Arrays
 				.stream(MiniJava.readString("Bitte gebe eine Gradfolge in folgender Form ein: (x1,x2,x3,x4,...)")
 						.replace("(", "").replace(")", "").split(","))
-				.mapToInt(string -> Integer.parseInt(string)).toArray();
+				.mapToInt(string -> Integer.parseInt(string.trim())).toArray();
 	}
 
 	public static void main(String args[]) {

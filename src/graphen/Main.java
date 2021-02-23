@@ -3,7 +3,6 @@ package graphen;
 import pgdp.MiniJava;
 
 public class Main {
-
 	public static void main(String[] args) {
 
 		System.out.println("Hallo, was willst du über Graphen wissen?");
